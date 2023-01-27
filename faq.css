@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    /* background-color: blue; */
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: #101010 !important;
+    /* position: sticky; */
+}
+nav{
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    z-index: 101;
+    background-color:#101010 !important;;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+}
+nav ul li{
+    list-style: none;
+    padding: 20px 15px;
+    padding-bottom: 20px;
+}
+nav ul li a{
+    font-size:14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    color:  rgba(255, 255, 255, 0.6);;
+    /* cursor: pointer; */
+}
+.vendor{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+/* ..........content................. */
+.main_faq{
+    display: flex;
+    margin-left: 150px;
+}
+.sub_faq{
+    margin-top: 80px;
+    height:50px;
+    /* margin-left: 150px; */
+    width: 40px;
+    /* border: solid; */
+}
+.sub_faq{
+    margin-top: 80px;
+    height:30px;
+    /* margin-left: 150px; */
+    width: 40px;
+    /* border: solid; */
+}
+.sub_faq1{
+    margin-top: 80px;
+    height:30px;
+    /* margin-left: 150px; */
+    width: 15px;
+    /* border: solid; */
+    color: #555;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.sub_faq a{
+    color: #555;
+    font-size: 14px;
+    font-family:"Open Sans", sans-serif;
+    /* text-transform: capitalize; */
+    display: inline-block;
+}
+.top-icon{
+    display: inline-block;
+    /* padding-top: 10px; */
+    /* margin-top: 10px; */
+}
+.faq-top-underline{
+    height: 1px;
+    width: 100%;
+    background-color: #c2b7b7;
+}
+/* .........faq.......... */
+.top-faq-faq{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.faq-brand{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-color: aqua; */
+    /* display: table; */
+}
+.name-faq{
+    display: table-cell;
+    /* text-align: center; */
+    vertical-align: middle;
+    /* margin-left: 150px; */
+}
+.name-faq h1{
+    margin-left: 150px;
+    font-family: "Muli", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.25;
+    text-transform: uppercase;
+    color: #000;
+}
+/* ..............order................... */
+.main-order{
+    display: flex;
+    justify-content: center;
+}
+.first-order{
+    height: 600px;
+    width: 400px;
+    border: 1px solid;
+}
+.second-order{
+    height: 600px;
+    width: 800px;
+    border: 1px solid;
+}
+.order h1{
+    text-align: center;
+    margin-top: 100px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 40px;
+}
+.right-order{
+    /* display: flex; */
+    margin-top: 100px;
+    margin-left: 50px;
+    background-color: aqua;
+    padding: 10px;
+}
+.right-one {
+display: flex;
+}
+.icon23{
+ margin-left: 400px;
+}
+.right-hidden{
+    margin-top: 10px;
+    height: 80px;
+    border: solid;
+}
+
+
+
+/* ............footer............... */
+.footer{
+    display:flex ;
+    justify-content: center;
+    margin-top: 0px;
+}
+.foot-one{
+    border-right: 3px solid rgba(255, 255, 255, 0.5);
+}
+.foot_grid{
+    height: 400px;
+    width: 50%;
+    margin-top: 180px;
+    background-color: #101010 !important;
+}
+.foot_right{
+    display: flex;
+    justify-content: center;
+}
+.fot-right{
+   height: 300px;
+   width: 400px; 
+}
+.fot-right p{
+    color:  rgba(255, 255, 255, 0.5);
+    line-height: 1.8;
+    margin-top: 70px;
+}
+.fot-right p a{
+    color: #fff;
+    font-size: 16px;
+    font-family:  "Muli", sans-serif;
+}
+.foot_right h4{
+    color: #555;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family:  "Muli", sans-serif;
+    margin-top: 30px;
+}
+.foot-a{
+    display: flex;
+}
+.fa{
+    margin-top: 30px;
+}
+.fa a{
+    color: #fff;
+}
+.fa-2{
+    margin-left: 300px;
+}
+.foot-b{
+    display: flex;   
+}
+.fab{
+    margin-top: 30px;
+}
+.fab a{
+    color: #fff;
+}
+.fa-4{
+    margin-left: 300px;
+}
+.fac{
+    margin-top: 30px;
+}
+.fac a{
+    color: #fff;
+}
+.underline11{
+    /* height: 1px; */
+    width: 45px;
+    background-color: #fff;
+    border:1px solid white;
+}
+.underline12{
+    /* height: 1px; */
+    width: 80px;
+    background-color: #fff;
+    border:1px solid white;
+    margin-left: 300px;
+}
+.underline13{
+    /* height: 1px; */
+    width: 35px;
+    background-color: #fff;
+    border:1px solid white;
+}
+.underline14{
+    /* height: 1px; */
+    width: 35px;
+    background-color: #fff;
+    border:1px solid white;
+    margin-left: 300px;
+}
+.underline15{
+    /* height: 1px; */
+    width: 100px;
+    background-color: #fff;
+    border:1px solid white;
+    /* margin-left: 300px; */
+}
+.top_foot-sub{
+    display: flex;
+    /* justify-content:; */
+    position: relative;
+}
+.top_foot-sub h4{
+    /* margin-top: 70px; */
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 500;
+    font-family:"Muli", sans-serif ;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.last-foot{
+    height: 300px;
+    width: 600px;
+    /* border: 1px solid white; */
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.foot-input{
+    height: 60px;
+    width: 300px;
+    padding: 8px;
+    background-color: transparent;
+    border: 1px solid  rgba(255, 255, 255, 0.5);
+}
+.foot_sub button{
+    text-transform: uppercase;
+    height: 77px;
+    width: 200px;
+    padding: 8px;
+    /* padding-left: 30px; */
+    /* padding-right: 30px; */
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    position: absolute;
+    /* margin-bottom: 30px; */
+    font-family: "Muli", sans-serif;
+}
+.foot_sub h3{
+    color:rgba(255, 255, 255, 0.5);
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family:"Muli", sans-serif;
+    font-size:14px ;
+    letter-spacing: 1px;
+}
+.foot-icon{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color:rgba(255, 255, 255, 0.5);
+}
+.foot-icon1{
+    font-size: 20px;
+    padding-top: 10px;
+    color:rgba(255, 255, 255, 0.5);
+}
+.foot-icon1:hover{
+    color: white;
+}
+.foot-icon:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
